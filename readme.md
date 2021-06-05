@@ -1,6 +1,6 @@
 # Create Wallet Order Reservations for Wyre Checkout
 
-This sample creates a simple serverless function to generate Wyre reservation ids and Checkout URLs.
+This sample creates a simple serverless Firebase cloud function to generate Wyre reservation ids and Checkout URLs.
 
 ### Features
 
