@@ -4,7 +4,7 @@ This sample creates a simple serverless function to generate Wyre reservation id
 
 ### Features
 
-- Create a Wallet Order Reservation on POST request. ([view code](./functions/index.js#L16)).
+- Create a Wallet Order Reservation on POST request. ([view code](./functions/index.js#L19)).
 
 #### Further reading:
 
