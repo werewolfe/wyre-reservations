@@ -5,7 +5,7 @@ const CryptoJS = require('crypto-js');
 const WyreURL = "https://api.testwyre.com";
 
 // Your Wyre account id goes here
-const WyreAccount = "AC_Y22RAQXEYV6";
+const WyreAccount = "AC_XXXXXXXXXXX";
 
 // See https://firebase.google.com/docs/functions/config-env to set the functions config
 const WYRE_KEY = functions.config().wyre.key;
@@ -13,7 +13,6 @@ const WYRE_SECRET = functions.config().wyre.secret;
 
 let signature = (data) => {
     let hash = CryptoJS.HmacSHA256(data, WYRE_SECRET);
-    console.log(hash)
     return CryptoJS.enc.Hex.stringify(hash);
 }
 
