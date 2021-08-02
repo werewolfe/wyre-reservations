@@ -32,7 +32,7 @@ This sample creates a simple serverless Firebase cloud function to generate Wyre
 ### Run functions locally
 
 ```
-firebase serve --only hosting:wyreReservation
+firebase serve --only functions:wyreReservation
 ```
 
 ## Going live
